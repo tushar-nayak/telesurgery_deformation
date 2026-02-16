@@ -80,8 +80,10 @@ class XRayDepthGenerator:
         gvxr.loadMeshFile("vessel", TEMP_MESH_FILE, "mm")
         
         # Material: High Density Iodine
-        gvxr.setElement("vessel", "I") 
-        gvxr.setDensity("vessel", 2.5, "g/cm3") 
+        #gvxr.setElement("vessel", "I") 
+        #gvxr.setDensity("vessel", 2.5, "g/cm3")
+        gvxr.setCompound("vessel", "H2O") 
+        gvxr.setDensity("vessel", 2, "g/cm3") 
 
         # --- VIEW DEFINITIONS ---
         # Format: (Name, LAO/RAO angle, Cranial/Caudal angle)
