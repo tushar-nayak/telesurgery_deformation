@@ -1,0 +1,46 @@
+{
+    "BloodVessel_ang0.png": {
+        "depth_file": "BloodVessel_ang0_depth.png",
+        "mesh_source": "BloodVessel_mesh",
+        "view_angle": 0,
+        "projection_matrix": [
+            [
+                13653.333333333334,
+                0,
+                2048.0
+            ],
+            [
+                0,
+                13653.333333333334,
+                2048.0
+            ],
+            [
+                0,
+                0,
+                1
+            ]
+        ]
+    },
+    "BloodVessel_ang90.png": {
+        "depth_file": "BloodVessel_ang90_depth.png",
+        "mesh_source": "BloodVessel_mesh",
+        "view_angle": 90,
+        "projection_matrix": [
+            [
+                13653.333333333334,
+                0,
+                2048.0
+            ],
+            [
+                0,
+                13653.333333333334,
+                2048.0
+            ],
+            [
+                0,
+                0,
+                1
+            ]
+        ]
+    }
+}

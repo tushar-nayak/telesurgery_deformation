@@ -11,7 +11,7 @@ from tqdm import tqdm
 from gvxrPython3 import gvxr
 
 # --- CONFIGURATION ---
-INPUT_DIR = "output_sequential_fix"
+INPUT_DIR = "output_sequential_wt"
 OUTPUT_DIR = "output_gvxr_6"
 #INPUT_DIR = "sample"
 #OUTPUT_DIR = "sample"

@@ -11,10 +11,10 @@ from tqdm import tqdm
 from gvxrPython3 import gvxr
 
 # --- CONFIGURATION ---
-INPUT_DIR = "output_sequential_second"
-OUTPUT_DIR = "output_gvxr_5"
+INPUT_DIR = "sample"
+OUTPUT_DIR = "sample"
 TEMP_MESH_FILE = "temp_geometry_scaled.stl" 
-IMAGE_SIZE = 512
+IMAGE_SIZE = 4096
 
 # GEOMETRY (Standard C-Arm in MM)
 SOURCE_POS   = np.array([-600.0, 0.0, 0.0]) # Source is 600mm away
