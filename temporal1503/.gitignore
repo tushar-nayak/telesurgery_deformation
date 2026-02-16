@@ -1,5 +1,11 @@
 output_meshes_sequential/
 output_sequential_second/
+output_sequential/
 final_dataset/
 output_gvxr/
 final_dataset_clinical_6views/
+final_dataset_clinical_6v/
+output_gvxr_2/
+output_gvxr_3/
+output_gvxr_4/
+output_gvxr_5/

@@ -1,0 +1,22 @@
+name: endovascular
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11.11
+  - numpy
+  - tqdm
+  - scipy
+  - matplotlib
+  - networkx
+  - pillow
+  - opencv
+  - scikit-learn
+  - trimesh
+  - pot
+  - pip
+  - simpleitk
+  - rtree
+  - pip:
+      - skeletor
+      - gvxr
+      - tifffile

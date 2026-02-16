@@ -242,7 +242,7 @@ def apply_cumulative_hybrid_deformation(mesh, centerline, output_dir, branch_id,
 # --- 4. MAIN EXECUTION ---
 if __name__ == "__main__":
     input_stl = "vessel.stl" 
-    output_dir = "output_sequential_second"
+    output_dir = "output_sequential"
     
     if not os.path.exists(output_dir): os.makedirs(output_dir)
     
